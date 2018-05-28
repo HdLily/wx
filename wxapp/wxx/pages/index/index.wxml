@@ -1,0 +1,3 @@
+<view wx:if="{{view == 'a'}}">你好！</view>
+<view wx:elif="{{view == 'b'}}">你不好</view>
+<view wx:else="{{ view == 'c'}}">嗯嗯 </view>

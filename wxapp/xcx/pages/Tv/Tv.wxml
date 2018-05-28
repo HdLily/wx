@@ -1,0 +1,12 @@
+<!--pages/Tv/Tv.wxml-->
+<view class="container">
+    <view class="load-box" wx:if="{{load}}">
+        <image class="load-img" src="../../imgs/loading.gif"></image>
+    </view>
+    <block wx:else>
+        <image class="title" src="../../imgs/title8.png"></image>
+       <view class="bd">
+
+       </view>
+    </block>
+</view>

@@ -1,0 +1,23 @@
+<!--pages/login/login.wxml-->
+<view class="weui-cells">
+<view class="weui-cells-top">
+    登录
+</view>
+    <view class="weui-cells_container">
+        
+        <view class="weui-cells weui_input">
+            <view class="weui-cells__bd">
+            <input class="weui-input" bindtap="{{setPhone}}" type="number" placeholder="请输入手机号" />
+            </view>
+            <view class="weui-cells__ft">
+                <view class="weui-vcode-btn" bindtap="send" data-status="0">{{sendStatus == 0 ? '获取验证码' : sendTime}}</view>
+            </view>
+            </view>
+            <view class="weui-cells__bd">
+            <input type="number" bindtap="setVerifycode" class="weui-input" placeholder="验证码" />
+            </view>
+            <view class="weui-btn-area">
+            <button class="weui-btn " type="submit" value="登录" bindtap="{{login}}">登录</button> 
+            </view>
+    </view>
+</view>

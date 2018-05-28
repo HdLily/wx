@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/my/my",
+    "pages/class/class",
+    "pages/electric/electric",
+    "pages/card/card"
+    
+    
+    
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "gray",
+    "selectedColor": "#ab956d",
+    "borderStyle": "f5f5f5",
+    "backgroundColor": "#f5f5f5",
+    "list": [
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home1.png"
+      },
+      {
+        "text": "课表",
+        "pagePath": "pages/class/class",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index1.png"
+      }
+    ]
+  }
+}

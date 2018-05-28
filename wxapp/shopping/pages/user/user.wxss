@@ -1,0 +1,31 @@
+/* pages/user/user.wxss */
+/* page {
+    background: #EEF6F8;
+} */
+page {
+    background: #FAF9F9;
+}
+.cell {
+    color: gray; 
+    font-size: 28rpx;
+    border-bottom: 1px solid gray;
+    height: 80rpx;
+    /* background: white; */
+    text-align: center;
+    line-height: 80rpx;
+    background-color:#FAF9F9;
+}
+.cell:after {
+    content: '';
+    position:absolute;
+    width: 25rpx;
+    height: 25rpx;
+    top: 35rpx;
+    right: 35rpx;
+    /* background-color:red; */
+
+    border: 1px solid gray;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(45deg);
+} 

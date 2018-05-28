@@ -1,0 +1,42 @@
+/* pages/login/login.wxss */
+page {
+    margin: 0;
+    padding: 0;
+}
+.weui-cells_top {
+    float: left;
+    font-size: 40rpx;
+}
+.weui-cells_container {
+    overflow: hidden;
+    margin: 50px;
+    padding: 30rpx;
+    float: left;
+
+}
+.weui-cells__bd {
+    border: 1px solid gray;
+    width: 550rpx;
+    height: 80rpx;
+    margin: 25rpx;
+    border-radius: 50rpx;
+    /* float: left; */
+}
+.weui-input {
+   float: left;
+   color: gray;
+   font-size: 30rpx;
+   text-align: center;
+}
+.weui-btn-area {
+    background-color: red;
+   
+    
+}
+.weui-btn {
+    background: red;
+    color: #fff;
+    border-radius: 10em;
+    /* box-sizing: border-box; */
+    
+}

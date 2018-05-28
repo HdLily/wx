@@ -1,0 +1,6 @@
+<!--pages/user/user.wxml-->
+<navigator url="/pages/address/address?address=navigate">
+    <view class="cell">
+        <text class="adress" bindtap="{{addressM}}">地址管理</text> 
+    </view>
+</navigator>
